@@ -1,0 +1,45 @@
+The following is a list of features/changes I want to see in the next version of this autonomous program.
+Interface:
+    Collapsable side panels
+    slicker design for side panels
+    When it generates the path name is auto added in the hpp header
+
+Field:
+    Dynamic sizes, resize the window
+    Load different fields: FRC, VRC, IQ, and more
+        Define field size
+    Zoom function?
+    Field pieces
+
+Robot
+    Build robot representation and analysis form
+    Define sizes, speed, accel, jerk
+    Have paths defined under a robot
+    Load in different positioning information
+    Play through the data with speed controls
+        Higher standard will have to defined for data
+    Higher dynamic structure different functions can be defined like, shooter, intake, expansion
+        There will have to be some options available for these functions, things that are important for the path generation
+        Does the robot have to be still?
+        How much time does the action take?
+        How does it know when to continue, is there a sensor value a function it must call?
+
+Paths
+    Select points along bezier curve
+        A point on the curve can be selected and the speed, angle.
+    Colours will indicate speed up and slow down instead of turns
+    Slow down for corners to maximize robot speed
+    S-Curve
+    Proper accounting for on the spot turns
+    Easy to make straightlines
+
+Traversal
+    Stall detection
+    Tuning functions - Velocity, acceleration, odometry, etc...
+    Improved interface
+        Generic subsystem setup
+    Tuning system
+    Testing system
+
+
+
